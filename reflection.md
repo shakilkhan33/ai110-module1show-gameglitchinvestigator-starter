@@ -29,11 +29,16 @@ I am using Copilot, and it helps me to correct the problems that I chose in gues
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+
 I play the game again that help me to understand the code was really fixed.
+
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
   I used pytest, It showed me green line that was changed and I read the code to see if it is wrong or not.
+
 - Did AI help you design or understand any tests? How?
+
+First of all, when I find the bugs, AI helps me to fix them as a mentor line by line, but I have to make sure to give AI the right selection parts; otherwise, it gives me the wrong answer. Let’s say I try to fix a bug in one chat box; it gives me a mixed answer based on previous code that I didn’t want. I have learned something new: if I use AI, I have to guide it properly; otherwise, it gives me the wrong answer.
 
 
 ---
