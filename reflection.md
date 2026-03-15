@@ -7,6 +7,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  a. I noticed that there was either higher or lower gussing number but it showed wrong.
+  b.incorrect Attempts.
 
 ---
 
