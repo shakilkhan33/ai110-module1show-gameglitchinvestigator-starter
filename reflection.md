@@ -7,8 +7,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
-  a. I noticed that there was either higher or lower gussing number but it showed wrong.
-  b.incorrect Attempts.
+
+
+  a. I noticed that there was either higher or lower gussing number but it showed wrong hints, Too high , Too low problems.
+  b.When The secret number and the guessing number is correct , the game doest not give me play again. a new game will not show up.
+  c. There was a history delay.
+  d.Incorrect attempt : The is not reduce properly.
 
 ---
 
@@ -18,14 +22,19 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+I am using Copilot, and it helps me to correct the problems that I chose in guessing number. It is supposed to give me "Too High" or "Too Low" hints, but it gives me the opposite. However, AI also gives me the wrong answer. As I tried to re-start the game, it didn't let me play a new game. While I tried to fix it, the random import was missing, and I fixed it manually.
+
 ---
 
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+I play the game again that help me to understand the code was really fixed.
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+  I used pytest, It showed me green line that was changed and I read the code to see if it is wrong or not.
 - Did AI help you design or understand any tests? How?
+
 
 ---
 

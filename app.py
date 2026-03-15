@@ -118,8 +118,8 @@ with col3:
     show_hint = st.checkbox("Show hint", value=True)
 
 if new_game:
-    st.session_state.attempts = 0
-    st.session_state.secret = random.randint(1, 100)
+    from logic_utils import reset_game_session_state # I fixed the fuction here so that I can play a new game again.
+    reset_game_session_state(st.session_state, low, high)
     st.success("New game started.")
     st.rerun()
 

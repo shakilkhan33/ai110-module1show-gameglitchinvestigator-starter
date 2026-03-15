@@ -1,3 +1,12 @@
+import random
+
+def reset_game_session_state(session_state, low=1, high=100):
+    """Reset session state for a new game."""
+    session_state.attempts = 0
+    session_state.secret = random.randint(low, high)
+    session_state.status = "playing"
+    session_state.history = []
+    session_state.score = 0
 def get_range_for_difficulty(difficulty: str):
     """Return (low, high) inclusive range for a given difficulty."""
     raise NotImplementedError("Refactor this function from app.py into logic_utils.py")
