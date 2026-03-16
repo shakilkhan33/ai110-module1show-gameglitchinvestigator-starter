@@ -47,11 +47,19 @@ First of all, when I find the bugs, AI helps me to fix them as a mentor line by 
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+I used Streamlit for the first time and it helped me to learn how webpages work and whenever I click a button or change something, the entire app code runs again from top to bottom. While I changed the code or found any bugs, I fixed the main code and saw the Streamlit changes such as when I fixed the new game to play again, it worked perfectly. It's different from regular web apps where you have to manage state manually with databases or cookies.
+
+---
+
+
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
+I have learned something new such as Git and GitHub usage and how to fix bugs, identify bugs, and efficiently fix errors. I believe these habits can help me in future debugging with me and ChatGPT together.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
+I might try to fix the problems first, then ask ChatGPT to help with the issues. This approach could help me build self-confidence while also improving the AI's suggestions, making the code more efficient.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+The project changed my whole perspective. I used to think AI was something you could use blindly and that machines would not give wrong answers, but I learned that we need to guide it properly; otherwise, it sometimes gives incorrect answers.
